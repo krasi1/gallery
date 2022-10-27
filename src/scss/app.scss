@@ -27,3 +27,14 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 250px;
+  width: 25%;
+  float: left;
+}
+.card{
+  background-color: red;
+}
